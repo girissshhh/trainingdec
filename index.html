@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>R. Girish Kumar – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <h1 class="site-title">R. Girish Kumar</h1>
+        <p class="site-subtitle">B.Tech – AI & ML · Developer in training</p>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#training">Training</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Intro / About -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I’m a third-year B.Tech student in Artificial Intelligence and Machine Learning at
+        Malla Reddy University, Hyderabad. I like taking small ideas and turning them into
+        working things on the web – from simple UIs to AI-powered projects.
+      </p>
+      <p>
+        Right now my focus is on getting better at clean frontend work, writing decent
+        backend services, and understanding how AI can be used in real products, not just
+        theory.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="grid two">
+        <div>
+          <h3>Technical</h3>
+          <ul>
+            <li>HTML, CSS, JavaScript, React</li>
+            <li>Python, Java</li>
+            <li>Spring Boot</li>
+            <li>MySQL</li>
+            <li>REST APIs</li>
+            <li>Git, VS Code</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Other</h3>
+          <ul>
+            <li>Basic software testing & UAT</li>
+            <li>Market and user research</li>
+            <li>Social media coordination</li>
+            <li>Video editing (freelance)</li>
+            <li>Languages: English, Telugu, Hindi</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="stack">
+        <article class="card">
+          <h3>Vehicle Tracking & Speed Estimation</h3>
+          <p class="meta">ML project · Traffic monitoring</p>
+          <p>
+            Built a system that tracks vehicles from video and estimates their speed.
+            The goal was to help with basic traffic monitoring and rule-violation checks.
+          </p>
+          <!-- Add links when ready -->
+          <!-- <a href="#" class="link">View code</a> -->
+        </article>
+
+        <article class="card">
+          <h3>Legal Chat Website</h3>
+          <p class="meta">Web + AI · Information chatbot</p>
+          <p>
+            A simple website where users can ask common legal questions and get
+            AI-generated responses. Focus was on structuring the UI clearly and
+            connecting the frontend to the model backend.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Letify SmartWork</h3>
+          <p class="meta">DBMS project · Workforce management</p>
+          <p>
+            A database-driven system for managing employee details, tasks, and basic
+            performance data. Helped me practice schema design and CRUD operations.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Training & Certifications -->
+    <section id="training" class="section">
+      <h2>Training & Certifications</h2>
+      <div class="stack">
+        <article class="card">
+          <h3>B.Tech – AI & ML</h3>
+          <p class="meta">Malla Reddy University · 2023 – Present</p>
+          <p>Current CGPA: 7.94</p>
+        </article>
+
+        <article class="card">
+          <h3>Microsoft Certified: Azure Fundamentals (AZ-900)</h3>
+          <p class="meta">Microsoft Learn</p>
+        </article>
+
+        <article class="card">
+          <h3>Cambridge English Empower – B2</h3>
+          <p class="meta">Cambridge English</p>
+        </article>
+
+        <article class="card">
+          <h3>Innovation & Entrepreneurship Summit</h3>
+          <p class="meta">Internship Studio</p>
+        </article>
+
+        <article class="card">
+          <h3>Volunteer Social Media Coordinator</h3>
+          <p class="meta">Fuzzbuzz Animal Shelter · 2018 – Present</p>
+          <p>
+            Help with basic content, posts, and small campaigns to support pet adoption.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>
+        If you’d like to talk about projects, internships, or just want to share feedback,
+        these are the easiest ways to reach me:
+      </p>
+      <ul class="contact-list">
+        <li><span>Email:</span> <a href="mailto:girishkumarrachamalla@gmail.com">girishkumarrachamalla@gmail.com</a></li>
+        <li><span>Phone:</span> <a href="tel:+919701861215">+91 97018 61215</a></li>
+        <li><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/girissshh22/" target="_blank">linkedin.com/in/girissshh22</a></li>
+        <li><span>GitHub:</span> <a href="#" target="_blank">github.com/your-github</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> R. Girish Kumar</p>
+    </div>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
